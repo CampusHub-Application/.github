@@ -56,11 +56,11 @@ Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan
 
 ## 🛠 Teknologi yang Digunakan
 
-- **Frontend**: React (HTML/CSS/JS)  
-- **Backend**: Node.js + Express  
-- **Database**: MySQL di AWS RDS  
-- **Storage**: EC2 Volume  
-- **Deployment**: AWS EC2 (t2.micro) dengan Nginx/PM2
+- **Frontend**: React  
+- **Backend**: Laravel
+- **Database**: MariaDB di Amazon RDS  
+- **Storage**: Amazon S3  
+- **Deployment**: Amazon EC2
 
 ---
 
