@@ -1,7 +1,5 @@
 # CampusHub 🎓📸
 
-## Caption ini ditulis oleh ChatGPT, yang biasa buat caption lagi sibuk melamun
-
 Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan andal. Dibangun khusus untuk komunitas kampus, CampusHub memudahkan setiap anggota untuk mengabadikan, menyimpan, dan menampilkan foto-foto kenangan terbaik mereka.
 
 ---
