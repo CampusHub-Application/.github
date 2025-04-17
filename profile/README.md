@@ -66,6 +66,6 @@ Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan
 
 ## 📞 Kontak & Dukungan
 
-Butuh bantuan? Kirim email ke **support@campushub.example.com** atau bergabung dengan kanal Slack kami untuk diskusi dan laporan bug.
+Butuh bantuan? Kirim email ke kami untuk diskusi dan laporan bug.
 
 > Bersama CampusHub, abadikan dan bagikan setiap cerita kampus dengan mudah! 🎉
