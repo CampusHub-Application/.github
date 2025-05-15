@@ -4,16 +4,6 @@ Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan
 
 ---
 
-## 📋 Daftar Isi
-
-1. [✨ Fitur Utama](#-fitur-utama)
-2. [⚡ Cara Kerja Singkat](#-cara-kerja-singkat)
-3. [🚀 Mengapa CampusHub?](#-mengapa-campushub)
-4. [🛠 Teknologi yang Digunakan](#-teknologi-yang-digunakan)
-5. [📞 Kontak & Dukungan](#-kontak--dukungan)
-
----
-
 ## Pre-requisite
 
 1. Install Docker Engine & Docker Compose
