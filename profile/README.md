@@ -28,8 +28,8 @@ Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan
       
    Isikan .env dengan konfigurasi yang sesuai.
    ```
-   VITE_API_URL={Sesuaikan dengan IP dan PORT container Reverse Proxy anda} (localhost:1234)
-   VITE_SANCTUM_URL={Sesuaikan dengan IP dan PORT container Reverse Proxy anda}/sanctum/csrf-cookie (localhost:1234/sanctum/csrf-cookie)
+   VITE_API_URL={Sesuaikan dengan IP host dan PORT container Reverse Proxy anda} (localhost:1234)
+   VITE_SANCTUM_URL={Sesuaikan dengan IP host dan PORT container Reverse Proxy anda}/sanctum/csrf-cookie (localhost:1234/sanctum/csrf-cookie)
    ```
 6. Salin file `.env.example` pada direktori API menjadi `env_api` dan sesuaikan konfigurasi.
       ```bash
@@ -38,7 +38,7 @@ Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan
    
    Isikan env_api dengan konfigurasi yang sesuai.
    ```
-   APP_URL={Sesuaikan dengan IP dan PORT container API anda} (localhost:8000)
+   APP_URL={Sesuaikan dengan IP host dan PORT container API anda} (localhost:8000)
    DB_HOST={Sesuaikan dengan IP database anda} (172.17.0.1)
    DB_PORT={Sesuaikan dengan Port database anda} (3306}
    DB_DATABASE={Sesuaikan dengan nama database anda}
@@ -60,7 +60,7 @@ Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan
 9. Jalankan aplikasi dengan Docker Compose:
    docker compose up -d
    
-10. Akses aplikasi melalui browser di `http://{sesuaikan dengan IP container Reverse Proxy anda}:1234`
+10. Akses aplikasi melalui browser di `http://{Sesuaikan dengan IP host anda}:1234`
     
 12. Untuk menghentikan aplikasi:
     docker compose down
