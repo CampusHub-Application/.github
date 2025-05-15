@@ -27,33 +27,37 @@ Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan
    ```
       
    Isikan .env dengan konfigurasi yang sesuai.
+   ```
    VITE_API_URL={Sesuaikan dengan IP dan PORT Reverse Proxy anda} (localhost:1234)
    VITE_SANCTUM_URL={Sesuaikan dengan IP dan PORT Reverse Proxy anda}/sanctum/csrf-cookie (localhost:1234/sanctum/csrf-cookie)
-
-5. Salin file `.env.example` pada direktori API menjadi `env_api` dan sesuaikan konfigurasi.
+   ```
+6. Salin file `.env.example` pada direktori API menjadi `env_api` dan sesuaikan konfigurasi.
       ```bash
    cp API/.env.example .env
    ```
-
-   Isikan .env dengan konfigurasi yang sesuai.
+   
+   Isikan env_api dengan konfigurasi yang sesuai.
+   ```
    APP_URL={Sesuaikan dengan IP  anda} (localhost:8000)
    DB_HOST={Sesuaikan dengan IP database anda} (172.17.0.1)
    DB_PORT={Sesuaikan dengan Port database anda} (3306}
    DB_DATABASE={Sesuaikan dengan nama database anda}
    DB_USERNAME={Sesuaikan dengan username database anda}
    DB_PASSWORD={Sesuaikan dengan password database anda}
-
-6. Buat file baru bernama env_db sebagai berikut.
+   ```
+8. Buat file baru bernama env_db sebagai berikut.
    ```bash
    nano env_db
    ```
-   
+
+   Isikan env_db dengan konfigurasi yang sesuai.
+   ```
    MARIADB_DATABASE={Sesuaikan dengan nama database anda}
    MARIADB_USER={Sesuaikan dengan username database anda}
    MARIADB_PASSWORD={Sesuaikan dengan password database anda}
    MARIADB_RANDOM_ROOT_PASSWORD=true
-   
-8. Jalankan aplikasi dengan Docker Compose:
+   ```
+9. Jalankan aplikasi dengan Docker Compose:
    docker compose up -d
    
 10. Akses aplikasi melalui browser di `http://localhost:8080`
@@ -119,7 +123,7 @@ Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan
 
 ---
 
-## ⚡ Cara Kerja Singkat
+## ⚡ Cara Penggunaan Aplikasi
 
 1. **📝 Daftar & Login**: Pengguna mendaftar, memilih role, lalu masuk ke dashboard.  
 2. **📷 Unggah Foto**: Klik tombol "Upload" untuk memilih file, lalu sistem memproses dan menyimpan.  
