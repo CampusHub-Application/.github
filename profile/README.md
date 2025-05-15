@@ -60,7 +60,7 @@ Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan
 9. Jalankan aplikasi dengan Docker Compose:
    docker compose up -d
    
-10. Akses aplikasi melalui browser di `http://localhost:8080`
+10. Akses aplikasi melalui browser di `http://{sesuaikan dengan IP container Reverse Proxy anda}:1234`
     
 12. Untuk menghentikan aplikasi:
     docker compose down
