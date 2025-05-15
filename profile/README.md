@@ -33,7 +33,7 @@ Selamat datang di **CampusHub**, platform berbagi momen kampus yang intuitif dan
    ```
 6. Salin file `.env.example` pada direktori API menjadi `env_api` dan sesuaikan konfigurasi.
       ```bash
-   cp API/.env.example .env
+   cp API/.env.example env_api
    ```
    
    Isikan env_api dengan konfigurasi yang sesuai.
